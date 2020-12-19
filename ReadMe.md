@@ -1,6 +1,7 @@
-# Project Title
+# Diagnosis of COVID 19 patients using machine learning.
 
-One Paragraph of project description goes here
+In the current state of healthcare many hospitals are working over their capacity, and our group wanted to help fix this issue, we used machine learning to diagnose a healthy lung CT from a sick one.
+
 
 ## Getting Started
 
