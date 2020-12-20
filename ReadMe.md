@@ -37,9 +37,6 @@ After training our machine learning model with 64 X-ray images we were able to g
 |![Healthy Lung Image](https://github.com/BatuhanAktan/executehacks/blob/main/TestImages/IM-0001-0001.jpeg?raw=true)|![Sick Lung Image](https://github.com/BatuhanAktan/executehacks/blob/main/TestImages/person15_virus_46.jpeg?raw=true)|
 |:---:|:---:|
 |Healthy Lung: IM-0001-0001.jpeg|Sick Lung: person15_virus_46.jpeg|
-
-|![Results](https://github.com/BatuhanAktan/executehacks/blob/main/TestImages/Results/Results.png?raw=true)|
-
 ```
 Image being processed: IM-0001-0001.jpeg
 Expected Result: Healthy 
@@ -48,7 +45,13 @@ Image being processed: person15_virus_46.jpeg
 Expected Result: Sick 
 Result: Sick
 ```
+(All the images are in the TestImages folder)
 
+These results can be replicated using our model and using Prediction.py.
+
+### Conclusion
+
+To conclude, our model can identify resipratory illness presence in a chest X-ray at around 90% accuracy, which in return could provide lifesaving support to patients and reduce the stress on healthcare professionals.
 
 ## Authors
 
