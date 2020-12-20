@@ -17,7 +17,7 @@ pip install numpy
 
 ### Installing
 
-The main program can be installed in the following google drive
+The model program can be installed in the following google drive
 
 ```
 https://drive.google.com/file/d/1r0XxZCt8s_TWgDvd6Kg_ObjuLs6C2iTJ/view
@@ -25,7 +25,7 @@ https://drive.google.com/file/d/1r0XxZCt8s_TWgDvd6Kg_ObjuLs6C2iTJ/view
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+After downloading the file above, run it.
 
 ### Break down into end to end tests
 
