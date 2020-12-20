@@ -1,5 +1,6 @@
 import tensorflow as tf
 import numpy as np
+from tensorflow import keras
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten, Conv2D, MaxPooling2D
 import pickle
@@ -29,7 +30,8 @@ model.add(Activation('sigmoid'))
 
 
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-model.fit(X,y,batch_size=10, validation_split=0.1)
-          
+model.fit(X,y,batch_size=2, epochs=10, validation_split=0.1)
+
+model.save('MyModel.h5')
 
           
