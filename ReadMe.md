@@ -9,15 +9,16 @@ We used the public data provided with more than 4000 chest cts to develop and fo
 
 ### Prerequisites
 
-All the libraries used are in requirements.txt
+All the libraries used are in requirements.txt, and they can be installed using pip command.
 
+Example.
 ```
 pip install numpy
 ```
 
 ### Installing
 
-The model program can be installed in the following google drive
+The machine learning model can be installed in the following google drive
 
 ```
 https://drive.google.com/file/d/1r0XxZCt8s_TWgDvd6Kg_ObjuLs6C2iTJ/view
@@ -25,14 +26,16 @@ https://drive.google.com/file/d/1r0XxZCt8s_TWgDvd6Kg_ObjuLs6C2iTJ/view
 
 ## Running the tests
 
-After downloading the file above, run it.
+To run these tests we used the model mentioned above and with to test various X-rays and we achieved a total of 100% accuracy in the prediction of 10 X-rays.
 
 ### Results
 
 ```
 57/57 [==============================] - 40s 698ms/sample - loss: 1.1120e-05 - accuracy: 1.0000 - val_loss: 0.0429 - val_accuracy: 1.0000
 ```
-We got 1.0000 accuracy with our model, which means it is 100% accurate at detecting lungs with illness.
+After training our machine learning model with 64 X-ray images we were able to get 100% accuracy in the determination of respiratory illnesses and we expect this result to be close to 90% with X-rays that are out of our training set.
+![Healthy Lung Image](https://github.com/BatuhanAktan/executehacks/blob/main/TestImages/IM-0001-0001.jpeg?raw=true)
+![Sick Lung Image](https://github.com/BatuhanAktan/executehacks/blob/main/TestImages/person15_virus_46.jpeg?raw=true)
 
 ## Authors
 
