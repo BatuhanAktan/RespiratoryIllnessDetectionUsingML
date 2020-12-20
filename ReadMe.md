@@ -63,7 +63,4 @@ To conclude, our model can identify resipratory illness presence in a chest X-ra
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
-
-* Shoutout to Kevin and Alvin
 
