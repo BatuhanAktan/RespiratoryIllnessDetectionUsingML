@@ -35,7 +35,10 @@ Explain what these tests test and why
 Give an example
 ```
 ### Results
+
+```
 57/57 [==============================] - 40s 698ms/sample - loss: 1.1120e-05 - accuracy: 1.0000 - val_loss: 0.0429 - val_accuracy: 1.0000
+```
 We got 1.0000 accuracy with our model, which means it is 100% accurate at detecting lungs with illness.
 
 ### And coding style tests
