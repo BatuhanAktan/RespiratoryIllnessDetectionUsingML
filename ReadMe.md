@@ -36,6 +36,20 @@ To run these tests we used the model mentioned above and with to test various X-
 After training our machine learning model with 64 X-ray images we were able to get 100% accuracy in the determination of respiratory illnesses and we expect this result to be close to 90% with X-rays that are out of our training set.
 |![Healthy Lung Image](https://github.com/BatuhanAktan/executehacks/blob/main/TestImages/IM-0001-0001.jpeg?raw=true)|![Sick Lung Image](https://github.com/BatuhanAktan/executehacks/blob/main/TestImages/person15_virus_46.jpeg?raw=true)|
 |:---:|:---:|
+|Healthy Lung: IM-0001-0001.jpeg|Sick Lung: person15_virus_46.jpeg|
+
+|![Results](https://github.com/BatuhanAktan/executehacks/blob/main/TestImages/Results/Results.png?raw=true)|
+
+```
+Image being processed: IM-0001-0001.jpeg
+Expected Result: Healthy 
+Result: Healthy
+Image being processed: person15_virus_46.jpeg
+Expected Result: Sick 
+Result: Sick
+```
+
+
 ## Authors
 
 * **Batuhan Aktan** - [Github](https://github.com/BatuhanAktan)
