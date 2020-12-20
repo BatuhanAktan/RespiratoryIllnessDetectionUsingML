@@ -63,17 +63,15 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Batuhan Aktan** - [Github](https://github.com/BatuhanAktan)
+* **Jody Zhou** - [Github](https://github.com/JodyZ0203)
+* **Sam Zhang** - [Github](https://github.com/Dam-Sam)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Shoutout to Kevin and Alvin
 
