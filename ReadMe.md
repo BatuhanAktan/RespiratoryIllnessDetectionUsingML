@@ -1,18 +1,18 @@
-# Diagnosis of COVID 19 patients using machine learning.
+# Diagnosis of respiratory illnesses.
 
-In the current state of healthcare many hospitals are working over their capacity, and our group wanted to help fix this issue, we used machine learning to diagnose a healthy lung CT from a sick one.
+In the current state of healthcare many hospitals are working over their capacity, and our group wanted to help fix this issue, we used machine learning to diagnose a healthy lung X-ray from a sick one.
 
 
-## Getting Started
+### Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+We used the public data provided with more than 4000 chest cts to develop and form a sequential model with tensorflow. We used 64 cts as our sample 32 infected and 32 healthy, with this model after 10 Epochs we were able to hit 100% accuracy.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+All the libraries used are in requirements.txt
 
 ```
-Give examples
+pip install numpy
 ```
 
 ### Installing
